@@ -15,7 +15,7 @@ import ssl
 
 # ===================== Configurable Params (Adjust as needed) =====================
 PLAYWRIGHT_CONFIG = {
-    "headless": False,  # Set to True for background crawling (no browser window)
+    "headless": True,  # Set to True for background crawling (no browser window)
     "timeout": 60000,   # Page load timeout (ms)
     "wait_for_load": "networkidle",  # Wait for page full dynamic render
     "sleep_after_load": 2,  # Sleep after load (s) for JS render completion
